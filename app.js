@@ -5,13 +5,22 @@ const express=require('express');
 
 const app=express();
 
+//import [product routes]
+
+const productRoutes=require('./api/routes/products')
+
+//import [order routes]
+const orderRoutes=require('./api/routes/order')
+
+
+
+
 // using the app [ using the .use middleware] 
 
-app.use((req,res,next) => {
-    res.status(200).json({
-        message: 'server connected !'
-    });
-});
+app.use('/products',productRoutes);
+
+app.use('/orders',orderRoutes);
+
 
 // export 
 
