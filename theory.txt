@@ -1,0 +1,54 @@
+RESTFUL API
+
+* REST STANDS FOR :  REspresentational State Transfer
+  alternative to a traditional web page 
+  works without html
+[when data is not transfered as a html ]
+[data linke: mobile app, geolocations
+] 
+
+restapi shares data
+
+restful api are stateless backends
+
+* here we use ajax request
+ from the server [request which give some responce 
+ by JSON]
+
+we cant send xml data , urlEncoded , FormData
+
+
+RESTFUL CONSTRAINTS
+
+1) client server arcitecture
+
+2) stateless
+
+3) cacheablity
+
+4) layered system
+
+5) uniform interface
+
+6) code on demand (optional)
+
+
+
+caching of data : it is a high speed data storage layer which stores a subset of data which is transient in nature so that in future if request is made on this data then it is served faster than possible by accessing its original storage 
+
+restful api doest care about the client connected to it 
+and it doesnt manage sessions 
+
+
+
+steps followed :
+
+
+1) acquire express
+
+2) create the server in [server.js]
+
+3) start the app in the [app.js]
+
+4)
+
