@@ -50,5 +50,9 @@ steps followed :
 
 3) start the app in the [app.js]
 
-4)
+4) test it on postman
+
+5) create route prouct .js
+
+6)  create route order.js
 
