@@ -21,7 +21,7 @@ const productRoutes=require('./api/routes/products')
 
 
 // import [order routes]
-const orderRoutes=require('./api/routes/order');
+const orderRoutes=require('./api/routes/orders');
 
 const dbURI="mongodb+srv://avi_9314:avinashjee@node-rest-shop.rdadz.mongodb.net/<dbname>?retryWrites=true&w=majority";
 
