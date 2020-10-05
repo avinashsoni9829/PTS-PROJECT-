@@ -31,6 +31,8 @@ mongoose.connect(dbURI,{useNewUrlParser:true,useUnifiedTopology:true})
 
 // using [morgan]
 
+mongoose.Promise=global.Promise;
+
 app.use(morgan('dev'));
 // using the [body parser]
 
