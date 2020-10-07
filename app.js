@@ -34,6 +34,8 @@ mongoose.connect(dbURI,{useNewUrlParser:true,useUnifiedTopology:true})
 mongoose.Promise=global.Promise;
 
 app.use(morgan('dev'));
+app.use('/uploads',express.static('uploads'));
+
 // using the [body parser]
 
 app.use(bodyParser.urlencoded({extended:false}));
